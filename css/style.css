@@ -3,7 +3,7 @@
 }
 
 .page-color {
-    background-color: #ece2b1;
+    background-color: #cfbf6c;
 }
 
 .border-color {
@@ -40,7 +40,7 @@ nav {
     border-radius: 20px;
     justify-content: space-evenly;
     backdrop-filter: blur(8px);
-     text-shadow: 0px 0px 20px #0a2b2b;
+    text-shadow: 0px 0px 20px #0a2b2b;
 
 }
 
@@ -54,7 +54,7 @@ nav:hover {
 
 nav a {
     text-decoration: none;
-    color: #ece2b1;
+    color: #380b0bc1;
     font-size: 18px;
     padding: 10px;
 
@@ -63,7 +63,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ece2b1;
+    color: #a12c08c5;
     backdrop-filter: blur(8px);
     margin-top: 10px;
     margin: 10px;
@@ -73,18 +73,19 @@ nav a:hover {
 
 
 }
+
 /** nav side **/
 .side-nav {
-    width: 10%;
+    width: 6%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 0;
     left: 0;
     box-shadow: 0px 0px 20px #336666;
+    align-self: center;
 
 }
 
@@ -99,10 +100,12 @@ main {
 }
 
 .main-box {
-    width: 90%;
+    width: 88%;
     height: 80%;
     display: flex;
     border-radius: 25px;
     box-shadow: 0px 0px 20px #336666;
+    position: absolute;
+    right: 3%;
 
 }
