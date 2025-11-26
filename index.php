@@ -1,4 +1,4 @@
-<html>
+
 
 <?php
 echo "";
@@ -8,4 +8,3 @@ $edad = 20;
 $birth_year = 2005
 ?>
 
-</html>
