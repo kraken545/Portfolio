@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="img/font's/Orbitron,Rye,Ubuntu.zip" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline - Portfolio</title>
+  </head>
+  <body class="font-style">
+    <main class="main-background-color" style="height: auto;">
+      <section class="main-info-blok main-background-color">
+        <!-- Futuristic Navigation -->
+        <section class="gooey-nav-container">
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="timeline.html" class="active">Timeline</a>
+          </nav>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-container">
+          <h1 class="timeline-title">My Professional Journey</h1>
+          
+          <div class="timeline">
+            <!-- Event 1 -->
+            <div class="timeline-event">
+              <div class="timeline-marker">
+                <div class="timeline-dot"></div>
+              </div>
+              <div class="timeline-content">
+                <h3>Still learning</h3>
+                <p class="timeline-date">Now</p>
+                <p class="timeline-description">
+                  After some relaxed time, I'm back to learning and working.<br/>
+                  Joined a start-up specializing in education technologies.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="timeline-event">
+              <div class="timeline-marker">
+                <div class="timeline-dot"></div>
+              </div>
+              <div class="timeline-content">
+                <h3>Learning and growing</h3>
+                <p class="timeline-date">2022</p>
+                <p class="timeline-description">
+                  Working to enhance and refine my JavaScript skills and abilities.<br/>
+                  Acquiring knowledge and understanding of web accessibility principles.<br/>
+                  Investigating design systems and testing methodologies.<br/>
+                  Participating in open-source projects to further develop experience.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="timeline-event">
+              <div class="timeline-marker">
+                <div class="timeline-dot"></div>
+              </div>
+              <div class="timeline-content">
+                <h3>Landed first job as a developer</h3>
+                <p class="timeline-date">2021</p>
+                <p class="timeline-description">
+                  Joined a start-up specializing in e-commerce fulfillment, robotics and logistics services.<br/>
+                  Engaged in the development, maintenance, and optimization of the company's website and internal projects.<br/>
+                  Acquired knowledge in JavaScript, React.js, TypeScript, Mantline, Tailwind, Redux, Directus, Zustand, and Hubspot.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 4 -->
+            <div class="timeline-event">
+              <div class="timeline-marker">
+                <div class="timeline-dot"></div>
+              </div>
+              <div class="timeline-content">
+                <h3>Started to learn programming</h3>
+                <p class="timeline-date">2020</p>
+                <p class="timeline-description">
+                  Started with Python and transitioned into web development.<br/>
+                  Completed numerous courses and several small-scale projects.<br/>
+                  Utilized freecodecamp and the Odin Project as primary educational resources.<br/>
+                  Successfully graduated from a bootcamp program.
+                </p>
+              </div>
+            </div>
+
+            <!-- Event 5 -->
+            <div class="timeline-event">
+              <div class="timeline-marker">
+                <div class="timeline-dot"></div>
+              </div>
+              <div class="timeline-content">
+                <h3>Born</h3>
+                <p class="timeline-date">1989</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="footer-info"></section>
+      </section>
+    </main>
+
+    <script>
+      // Set active nav link
+      document.querySelectorAll('nav a').forEach(link => {
+        if (link.href === window.location.href) {
+          link.classList.add('active');
+        }
+      });
+    </script>
+  </body>
+</html>

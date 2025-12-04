@@ -8,129 +8,146 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Contact - Portfolio</title>
   </head>
   <body class="font-style">
-    <main class="main-background-color" style="height: auto;">
+    <main class="main-background-color" style="height: auto">
       <section class="main-info-blok main-background-color">
-        <!-- Navigation -->
+        <!-- Futuristic Navigation -->
         <section class="gooey-nav-container">
           <nav>
-            <a href="index.html"
-              ><img
-                src="img/icons/icons8-home-48.png"
-                alt="home-icon"
-                width="40"
-            /></a>
-            <a href="contact.html"
-              ><img
-                src="img/icons/icons-list-24.png"
-                alt="list-icon"
-                width="40"
-            /></a>
+            <a href="index.html">Home</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="timeline.html">Timeline</a>
           </nav>
         </section>
 
-        <!-- Timeline Section -->
-        <section class="timeline-container">
-          <h1 class="timeline-title">Timeline</h1>
+        <!-- Contact Section -->
+        <section class="contact-main-section contact-only">
+          <!-- Contact Form -->
+          <section class="contact-right full-width">
+            <h1 class="contact-title">Get in Touch</h1>
 
-          <div class="timeline">
-            <!-- Event 1 -->
-            <div class="timeline-event">
-              <div class="timeline-marker">
-                <div class="timeline-dot"></div>
-              </div>
-              <div class="timeline-content">
-                <h3>Still learning</h3>
-                <p class="timeline-date">Now</p>
-                <p class="timeline-description">
-                  - After some relaxed time, I'm back to learning and
-                  working.<br />
-                  - Joined a start-up specializing in education technologies.
-                </p>
+            <div class="contact-info-box">
+              <p class="contact-subtitle">
+                Let's connect and collaborate on amazing projects
+              </p>
+
+              <form class="contact-form" id="contactForm">
+                <!-- Name Input -->
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                  <div class="input-underline"></div>
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                  />
+                  <div class="input-underline"></div>
+                </div>
+
+                <!-- Subject Input -->
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What's this about?"
+                    required
+                  />
+                  <div class="input-underline"></div>
+                </div>
+
+                <!-- Message Textarea -->
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Your message here..."
+                    rows="6"
+                    required
+                  ></textarea>
+                  <div class="input-underline"></div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">Send Message</button>
+              </form>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+              <p class="social-title">Or connect on social media:</p>
+              <div class="social-icons">
+                <a href="#" class="social-link" title="LinkedIn">
+                  <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-link" title="GitHub">
+                  <span>GitHub</span>
+                </a>
+                <a href="#" class="social-link" title="Twitter">
+                  <span>Twitter</span>
+                </a>
               </div>
             </div>
 
-            <!-- Event 2 -->
-            <div class="timeline-event">
-              <div class="timeline-marker">
-                <div class="timeline-dot"></div>
-              </div>
-              <div class="timeline-content">
-                <h3>Learning and growing</h3>
-                <p class="timeline-date">2022</p>
-                <p class="timeline-description">
-                  - Working to enhance and refine my JavaScript skills and
-                  abilities.<br />
-                  - Acquiring knowledge and understanding of web accessibility
-                  principles, to ensure inclusive design and user experience.<br />
-                  - Investigating design systems and testing methodologies to
-                  enhance the development process and produce high-quality,
-                  robust software.<br />
-                  - Participating in open-source projects to further develop
-                  experience and contribute to the software development
-                  community.
-                </p>
-              </div>
+            <!-- Contact Information -->
+            <div class="contact-info-direct">
+              <h3>Direct Contact</h3>
+              <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+              <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+              <p>Location: Curaçao / Netherlands</p>
             </div>
-
-            <!-- Event 3 -->
-            <div class="timeline-event">
-              <div class="timeline-marker">
-                <div class="timeline-dot"></div>
-              </div>
-              <div class="timeline-content">
-                <h3>Landed first job as a developer</h3>
-                <p class="timeline-date">2021</p>
-                <p class="timeline-description">
-                  - Joined a start-up specializing in e-commerce fulfillment,
-                  robotics and logistics services.<br />
-                  - Engaged in the development, maintenance, and optimization of
-                  the company's website, oplog.io, a several internal projects
-                  and one of the company's production applications.<br />
-                  - Acquired knowledge and experience in technologies such as
-                  JavaScript, React.js, TypeScript, Mantline, Tailwind, Redux,
-                  Directus, Zustand, and Hubspot.
-                </p>
-              </div>
-            </div>
-
-            <!-- Event 4 -->
-            <div class="timeline-event">
-              <div class="timeline-marker">
-                <div class="timeline-dot"></div>
-              </div>
-              <div class="timeline-content">
-                <h3>Started to learn programming</h3>
-                <p class="timeline-date">2020</p>
-                <p class="timeline-description">
-                  - Started with Python and transitioned into web
-                  development.<br />
-                  - Completed numerous courses and several small-scale
-                  projects.<br />
-                  - Utilized freecodecamp and the Odin Project as primary
-                  educational resources.<br />
-                  - Successfully graduated from a bootcamp program.
-                </p>
-              </div>
-            </div>
-
-            <!-- Event 5 -->
-            <div class="timeline-event">
-              <div class="timeline-marker">
-                <div class="timeline-dot"></div>
-              </div>
-              <div class="timeline-content">
-                <h3>Born</h3>
-                <p class="timeline-date">1989</p>
-              </div>
-            </div>
-          </div>
+          </section>
         </section>
 
         <section class="footer-info"></section>
       </section>
     </main>
+
+    <script>
+      // Simple form validation and feedback
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const btn = this.querySelector(".submit-btn");
+          const originalText = btn.textContent;
+
+          btn.textContent = "✓ Message Sent!";
+          btn.style.background = "#00FF00";
+          btn.style.color = "#000000";
+
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.style.background = "";
+            btn.style.color = "";
+            this.reset();
+          }, 2000);
+        });
+
+      // Set active nav link
+      document.querySelectorAll("nav a").forEach((link) => {
+        if (link.href === window.location.href) {
+          link.classList.add("active");
+        }
+      });
+    </script>
   </body>
 </html>
