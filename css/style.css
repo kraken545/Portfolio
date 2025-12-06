@@ -202,20 +202,6 @@ main {
     }
 }
 
-@keyframes border-color-animation {
-
-    0%,
-    100% {
-        border-color: #606060;
-    }
-
-    50% {
-        border-color: #000000;
-    }
-}
-
-
-
 .timeline-container {
     width: 100%;
     display: flex;
