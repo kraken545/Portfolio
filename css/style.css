@@ -144,11 +144,12 @@ main {
     100% {
         box-shadow: 0 0 20px rgba(0, 255, 0, 0.3), inset 0 0 10px rgba(0, 255, 0, 0.05);
         border-color: #00FF00;
+       
     }
 
     50% {
         box-shadow: 0 0 40px rgba(0, 255, 0, 0.6), inset 0 0 20px rgba(0, 255, 0, 0.15);
-        border-color: #00FF00;
+        border-color: #00FF00; 
     }
 }
 
