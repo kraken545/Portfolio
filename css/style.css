@@ -1037,16 +1037,18 @@ nav a.active::before {
         font-size: 18px;
         height: 50px;
         margin-top: 20px;
+        
     }
 
     .stack-stack-sectie {
-        width: 90%;
+        width: 100%;
         left: 5%;
         top: auto;
         position: relative;
         gap: 12px;
         padding: 30px;
         border-radius: 10px;
+        margin-top: 15px;
     }
 
     .stack-stack-sectie div {
