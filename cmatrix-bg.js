@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Crear canvas para el efecto cmatrix
+    
     const canvas = document.createElement('canvas');
     canvas.id = 'matrix-bg';
     canvas.style.position = 'fixed';
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function drawMatrix() {
         frameCount++;
         
-        // Fondo con efecto de "barrido" sutil
+        
         ctx.fillStyle = 'rgba(0, 0, 0, 0.06)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.shadowOffsetY = 0;
         
         // Colores verdes hacker - más oscuros y menos brillantes
-        const greens = ['#004400', '#005500', '#006600', '#007700', '#008800', '#009900', '#00AA00', '#003300', '#002200', '#001100', '#000F00', '#000E00'];
+        const greens = ['#00ff00c0', '#005500', '#006600', '#007700', '#008800', '#009900', '#00AA00', '#003300', '#002200', '#001100', '#000F00', '#000E00'];
         
         for (let i = 0; i < drops.length; i++) {
             // Actualizar carácter periódicamente
