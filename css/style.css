@@ -22,17 +22,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
-.nav {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
 nav {
     width: 35%;
     height: 60px;
@@ -47,9 +36,6 @@ nav {
 
 
 }
-
-
-
 
 main {
     width: 100%;
@@ -73,7 +59,7 @@ main {
 
 
 
-
+/* mijn photo in de pagina*/
 
 .pic-box {
     width: 30%;
@@ -124,13 +110,14 @@ main {
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
 }
 
+/* stack shine animatie */
 .stack-stack-sectie::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.2), transparent);
+    background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0), transparent);
     border-radius: 15px;
-    animation: stack-shine 4s ease-in-out infinite;
+    animation: stack-shine 8s ease-in-out infinite;
     pointer-events: none;
 }
 
@@ -138,13 +125,13 @@ main {
 
     0%,
     100% {
-        box-shadow: 0 0 20px rgba(0, 255, 0, 0.3), inset 0 0 10px rgba(0, 255, 0, 0.05);
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.3), inset 0 0 10px rgba(0, 255, 0, 0.05);
         border-color: #00FF00;
 
     }
 
     50% {
-        box-shadow: 0 0 40px rgba(0, 255, 0, 0.6), inset 0 0 20px rgba(0, 255, 0, 0.15);
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.6), inset 0 0 20px rgba(0, 255, 0, 0.15);
         border-color: #00FF00;
     }
 }
@@ -172,7 +159,7 @@ main {
     height: 10%;
 }
 
-/** AI animation **/
+/** stack divs animation, shine and hover glow **/
 
 
 .stack-stack-sectie div {
@@ -188,14 +175,14 @@ main {
     filter: drop-shadow(0 0 15px rgba(0, 255, 0, 0.8));
 }
 
-
+/* stack divs movement velocity */
 @keyframes scroll-icons {
     0% {
         transform: translateX(0);
     }
 
     100% {
-        transform: translateX(calc(-50vw - 100px));
+        transform: translateX(calc(-50vw - 50px));
     }
 }
 
@@ -210,7 +197,7 @@ main {
 .timeline-title {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #ffffff;
+    color: #ffffffbb;
     text-align: center;
     font-family: "Orbitron", sans-serif;
     font-weight: bold;
@@ -230,7 +217,7 @@ main {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(to bottom, #606060, #00FF00, #606060);
+    background: linear-gradient(to bottom, #2bff0018, #00ff00d4, #2bff0018);
 }
 
 .timeline-event {
@@ -357,6 +344,7 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    align-self: center;
 }
 
 /* ========== CONTACT FORM STYLES ========== */
@@ -518,7 +506,7 @@ main {
     border-radius: 8px;
     background: transparent;
 
-    box-shadow: 0 0 14px rgba(0, 255, 0, 0.18), inset 0 0 6px rgba(0, 255, 0, 0.06);
+    box-shadow: 0 0 14px rgba(0, 255, 0, 0.6), inset 0 0 6px rgba(0, 255, 0, 0.06);
     opacity: 0;
     transform: scale(1.03);
     transition: opacity 0.35s ease, transform 0.35s ease;
