@@ -3,9 +3,9 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="img/font's/Orbitron,Rye,Ubuntu.zip" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - Portfolio</title>
@@ -15,9 +15,9 @@
       <section class="main-info-blok main-background-color">
         <section class="gooey-nav-container">
           <nav>
-            <a href="index.html">Home</a>
-            <a href="contact.html" class="active">Contact</a>
-            <a href="timeline.html">Timeline</a>
+            <a href="../../index.php">Home</a>
+            <a href="contact.php" class="active">Contact</a>
+            <a href="timeline.php">Timeline</a>
           </nav>
         </section>
 
@@ -66,19 +66,19 @@
                   href="https://www.linkedin.com/in/elian-meran-rosario-87584a19b"
                   class="social-link"
                   title="LinkedIn"
-                  ><img src="img/icons/Linkedin-Logo-.png" alt="" width="25" />
+                  ><img src="../img/icons/Linkedin-Logo-.png" alt="" width="25" />
                 </a>
                 <a
                   href="https://github.com/kraken545/Portfolio.git"
                   class="social-link"
                   title="GitHub"
-                  ><img src="img/icons/Github-Logo.png" alt="" width="25" />
+                    ><img src="../img/icons/Github-Logo.png" alt="" width="25" />
                 </a>
                 <a
                   href="https://www.instagram.com"
                   class="social-link"
                   title="Instagram"
-                  ><img src="img/icons/Instagram-Logo.png" alt="" width="25" />
+                  ><img src="../img/icons/Instagram-Logo.png" alt="" width="25" />
                 </a>
               </div>
             </div>
@@ -101,6 +101,6 @@
       </section>
     </main>
     <!--- animatie script voor de backgound. Cmatrix_style -->
-    <script src="cmatrix-bg.js"></script>
+    <script src="../assets/js/cmatrix-bg.js"></script>
   </body>
 </html>
